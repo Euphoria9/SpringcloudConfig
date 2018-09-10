@@ -9,7 +9,7 @@ eureka:
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port} #指定实例id
 server:
-  port: ${port}
+  port: 7863
 spring:
   application:
     name: UserService
