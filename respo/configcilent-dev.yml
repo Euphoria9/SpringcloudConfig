@@ -1,4 +1,4 @@
-profiles: client-dev
+profiles: clientdev
 server:
   port: 8801
 eureka:
