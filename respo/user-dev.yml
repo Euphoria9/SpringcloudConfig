@@ -1,3 +1,4 @@
+profiles: dev
 eureka:
   client:
     serviceUrl:
@@ -13,8 +14,6 @@ server:
 spring:
   application:
     name: UserService
-profiles: dev
-
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=utf-8
