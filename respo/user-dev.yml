@@ -13,7 +13,7 @@ server:
 spring:
   application:
     name: UserService
-  profiles: dev
+profiles: dev
 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
